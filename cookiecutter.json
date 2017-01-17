@@ -4,6 +4,8 @@
   "module_name": "module",
   "module_display_name": "Module",
   "module_description": "Describe the module",
+  "year": "2017",
+  "license": "MIT",
   "github_name": "ksindi",
   "github_repo": "ksindi/{{cookiecutter.module_name}}"
 }
