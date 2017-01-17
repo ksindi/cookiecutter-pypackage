@@ -40,7 +40,7 @@ if __name__ == '__main__':
         classifiers=textwrap.dedent("""
             Development Status :: 4 - Beta
             Intended Audience :: Science/Research
-            License :: OSI Approved :: {{license}}
+            License :: OSI Approved :: {{cookiecutter.license}}
             Natural Language :: English
             Environment :: Console
             Programming Language :: Python :: 2
