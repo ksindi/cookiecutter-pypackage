@@ -13,8 +13,8 @@
 
 {{cookiecutter.module_description}}
 
-Getting Started with {{cookiecutter.module_display_name}}
-----------------------------
+Install
+-------
 
 {{cookiecutter.module_display_name}} is available on PyPI can be installed with `pip <https://pip.pypa.io>`_.::
 
@@ -25,7 +25,8 @@ To install the latest development version from `Github <https://github.com/{{coo
     $ pip install git+git://github.com/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}.git
 
 
-If your current Python installation doesn't have pip available, try `get-pip.py <bootstrap.pypa.io>`_
+Usage
+-----
 
 After installing {{cookiecutter.module_display_name}} you can use it like any other Python module.
 Here's a very simple example:
@@ -45,6 +46,21 @@ Support / Report Issues
 
 All support requests and issue reports should be
 `filed on Github as an issue <https://github.com/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}/issues>`_.
+
+Test
+----
+
+Running unit tests::
+
+    make test
+
+Running linter::
+
+    make lint
+
+Running tox::
+
+    make test-all
 
 License
 -------
