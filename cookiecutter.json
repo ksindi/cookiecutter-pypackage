@@ -5,5 +5,5 @@
   "module_display_name": "Module",
   "module_description": "Describe the module",
   "github_name": "ksindi",
-  "github_repo": "{{cookiecutter.module_name}}"
+  "github_repo": "ksindi/{{cookiecutter.module_name}}"
 }
