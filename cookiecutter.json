@@ -1,0 +1,9 @@
+{
+  "full_name": "Kamil Sindi",
+  "email": "kysindi@gmail.com",
+  "module_name": "module",
+  "module_display_name": "Module",
+  "module_description": "Describe the module",
+  "github_name": "ksindi",
+  "github_repo": "{{cookiecutter.module_name}}"
+}
