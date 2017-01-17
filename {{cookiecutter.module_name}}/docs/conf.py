@@ -56,7 +56,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = '{{cookiecutter.module_name}}'
-copyright = '2017, {{cookiecutter.full_name}}'
+copyright = '{{year}}, {{cookiecutter.full_name}}'
 author = '{{cookiecutter.full_name}}'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -269,9 +269,11 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, '{{cookiecutter.module_name}}.tex',
+    (master_doc,
+     '{{cookiecutter.module_name}}.tex',
      '{{cookiecutter.module_display_name}} Documentation',
-     '{{cookiecutter.full_name}}', 'manual'),
+     '{{cookiecutter.full_name}}',
+     'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

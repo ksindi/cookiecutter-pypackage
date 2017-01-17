@@ -22,6 +22,7 @@ LOGFORMAT = '%(asctime)s %(name)-12s %(levelname)-8s %(message)s'
 
 
 def debug_hook(type_, value, tb):
+    # http://stackoverflow.com/a/1237407/690430
     if hasattr(sys, 'ps1') or not sys.stderr.isatty():
         sys.__excepthook__(type_, value, tb)
     else:
@@ -55,5 +56,5 @@ def main():
     return {{cookiecutter.module_name}}(**vars(args))
 
 
-def {{cookiecutter.module_name}}():
+def {{cookiecutter.module_name}}(**kwargs):
     pass

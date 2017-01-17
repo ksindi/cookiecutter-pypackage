@@ -7,14 +7,17 @@
 """
 import logging
 
-from setuptools_scm import get_version
+from pkg_resources import get_distribution, DistributionNotFound
 
 __title__ = '{{cookiecutter.module_name}}'
 __author__ = '{{cookiecutter.full_name}}'
 __license__ = 'MIT'
 __email__ = '{{cookiecutter.email}}'
-# __version__ = get_version(root='..', relative_to=__file__)
-
+try:
+    __version__ = get_distribution(__name__).version
+except DistributionNotFound:
+    # package is not installed
+    pass
 
 # Set default logging handler to avoid "No handler found" warnings.
 try:  # Python 2.7+
@@ -25,5 +28,3 @@ except ImportError:
             pass
 
 logging.getLogger(__name__).addHandler(NullHandler())
-
-__all__ = []

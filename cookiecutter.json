@@ -7,5 +7,5 @@
   "year": "2017",
   "license": "MIT",
   "github_name": "ksindi",
-  "github_repo": "ksindi/{{cookiecutter.module_name}}"
+  "github_repo": "{{cookiecutter.github_name}}/{{cookiecutter.module_name}}"
 }
