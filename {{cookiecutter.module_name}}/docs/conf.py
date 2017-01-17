@@ -56,7 +56,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = '{{cookiecutter.module_name}}'
-copyright = '{{year}}, {{cookiecutter.full_name}}'
+copyright = '{{cookiecutter.year}}, {{cookiecutter.full_name}}'
 author = '{{cookiecutter.full_name}}'
 
 # The version info for the project you're documenting, acts as replacement for

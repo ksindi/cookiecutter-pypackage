@@ -2,8 +2,8 @@
 # flake8: noqa
 """{{cookiecutter.module_name}} library.
 
-:copyright: (c) {{year}} by {{cookiecutter.full_name}}.
-:license: {{license}}, see LICENSE for more details.
+:copyright: (c) {{cookiecutter.year}} by {{cookiecutter.full_name}}.
+:license: {{cookiecutter.license}}, see LICENSE for more details.
 """
 import logging
 

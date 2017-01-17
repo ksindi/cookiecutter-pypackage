@@ -52,7 +52,7 @@ if __name__ == '__main__':
             Topic :: Scientific/Engineering
             """).strip().splitlines(),
         keywords=['{{cookiecutter.module_name}}'],
-        license='{{license}}',
+        license='{{cookiecutter.license}}',
         entry_points={
             'console_scripts': [
                 '{{cookiecutter.module_name}} = {{cookiecutter.module_name}}.__main__:main'
