@@ -27,7 +27,6 @@ To install the latest development version from `Github <https://github.com/{{coo
 
     $ pip install git+git://github.com/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}.git
 
-
 Usage
 -----
 
@@ -49,6 +48,15 @@ Support / Report Issues
 
 All support requests and issue reports should be
 `filed on Github as an issue <https://github.com/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}/issues>`_.
+
+Releasing
+---------
+
+::
+
+    git checkout master
+    git tag -a vX.Y.Z
+    git push origin --tags
 
 Test
 ----
