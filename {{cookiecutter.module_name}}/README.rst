@@ -7,6 +7,9 @@
 .. image:: https://readthedocs.org/projects/{{cookiecutter.module_name}}/badge/?version=latest
     :target: http://{{cookiecutter.module_name}}.readthedocs.io
     :alt: Documentation Build Status
+.. image:: https://img.shields.io/codecov/c/github/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}/master.svg
+    :target: https://codecov.io/gh/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}
+    :alt: Test Suite Coverage
 .. image:: https://img.shields.io/pypi/v/{{cookiecutter.module_name}}.svg
     :target: https://pypi.python.org/pypi/{{cookiecutter.module_name}}
     :alt: PyPI Version
@@ -65,4 +68,4 @@ Running tox::
 License
 -------
 
-MIT
+{{cookiecutter.license}}
