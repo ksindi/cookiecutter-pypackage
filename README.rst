@@ -15,7 +15,7 @@ Install the `cookiecutter <https://github.com/audreyr/cookiecutter>`_ module via
     pip install cookiecutter
     
 Then run cookiecutter to get the latest version of the template.
-It'll ask you a few questions like your Github user name, repo name, etc::
+It will ask you a few questions like your GitHub user name, repo name, etc::
 
     cookiecutter gh:ksindi/cookiecutter-pypackage
 
@@ -25,7 +25,7 @@ The files you should change if you're using a non-MIT license are:
 
 * `LICENSE`
 
-Do a quick look at all ``.rst`` files to make sure the number of underlines is correct for titles. :)
+Do a quick look at all ``.rst`` files to make sure the number of underlines is correct for titles.
 
 Set up a GitHub repo {{cookiecutter.github_repo}} without an initial commit and commit/push the directory::
 
@@ -36,7 +36,7 @@ Set up a GitHub repo {{cookiecutter.github_repo}} without an initial commit and 
     git remote add origin https://github.com/{{cookiecutter.github_repo}}.git
     git push origin master
 
-After this commit, you should sign up for the following services and set their permissions on Github:
+After this commit, you should sign up for the following services and set their permissions on GitHub:
 
 * `Travis CI <https://travis-ci.org/>`_
 * `Codecov <https://codecov.io/gh>`_
