@@ -23,9 +23,9 @@ Install
 
     $ pip install {{cookiecutter.module_name}}
 
-To install the latest development version from `GitHub <https://github.com/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}>`_::
+To install the latest development version from `GitHub <https://github.com/{{cookiecutter.github_repo}}>`_::
 
-    $ pip install git+git://github.com/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}.git
+    $ pip install git+git://github.com/{{cookiecutter.github_repo}}.git
 
 Usage
 -----
