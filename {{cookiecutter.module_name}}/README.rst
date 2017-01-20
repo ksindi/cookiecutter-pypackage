@@ -23,7 +23,7 @@ Install
 
     $ pip install {{cookiecutter.module_name}}
 
-To install the latest development version from `Github <https://github.com/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}>`_::
+To install the latest development version from `GitHub <https://github.com/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}>`_::
 
     $ pip install git+git://github.com/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}.git
 
@@ -47,7 +47,7 @@ Support / Report Issues
 -----------------------
 
 All support requests and issue reports should be
-`filed on Github as an issue <https://github.com/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}/issues>`_.
+`filed on GitHub as an issue <https://github.com/{{cookiecutter.github_name}}/{{cookiecutter.github_repo}}/issues>`_.
 
 Releasing
 ---------
