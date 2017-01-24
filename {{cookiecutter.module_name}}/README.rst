@@ -38,6 +38,21 @@ Here's a very simple example:
     import {{cookiecutter.module_name}}
     # Fill this section in with the common use-case.
 
+::
+
+    {{cookiecutter.module_name}}
+
+To see the full list of options:
+
+::
+
+    {{cookiecutter.module_name}} --help
+    
+    Options:
+      debug:            drop a debugger if an exception is raised
+      help (-h):        argparse help
+      log-level (-l)    logging level (default=INFO)
+
 API Reference
 -------------
 
