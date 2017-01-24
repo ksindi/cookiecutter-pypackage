@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 """{{cookiecutter.module_name}} CLI.
 
-Prompt parameters:
+Options:
   debug:            drop a debugger if an exception is raised
   help (-h):        argparse help
   log-level (-l)    logging level (default=INFO)
 
 Usage:
-  {{cookiecutter.module_name}} TODO
+  {{cookiecutter.module_name}}
 """
 import sys
 import os.path
